@@ -8,6 +8,17 @@ Simple weather forecast application for educational purposes.
 - Pinia
 - Vite
 
+## Components
+
+- Button
+- Statistics
+- Day Card
+- Days List
+- Weather Icon
+- Left Panel
+- City Selector
+- Input
+
 ## Installation
 
 Clone the repository and install dependencies:
