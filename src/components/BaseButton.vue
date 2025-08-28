@@ -1,6 +1,6 @@
 <template>
   <button class="base-button">
-    <div class="base-button-icon">
+    <div v-if="$slots.icon" class="base-button-icon">
       <slot name="icon"></slot>
     </div>
     <slot></slot>
@@ -15,6 +15,7 @@ const props = defineProps({
     default: ''
   }  
 })
+
 </script>
 
 <style scoped>
@@ -30,6 +31,8 @@ const props = defineProps({
     display: flex;
     gap: 9px;
     align-items: center;
+    height: 53px;
+    justify-content: center;
   }
 
   .base-button-icon {
