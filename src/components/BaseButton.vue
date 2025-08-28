@@ -28,6 +28,8 @@ const props = defineProps({
     color: var(--primary);
     cursor: pointer;
     display: flex;
+    gap: 9px;
+    align-items: center;
   }
 
   .base-button-icon {
