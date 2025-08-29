@@ -1,11 +1,6 @@
 <script setup>
-import { defineProps, defineEmits } from 'vue';
-
+const data = defineModel({ type: String })
 defineProps({
-  modelValue: {
-    type: String,
-    default: ''
-  },
   type: {
     type: String,
     default: 'text'
@@ -16,20 +11,14 @@ defineProps({
   }
 });
 
-const emit = defineEmits(['update:modelValue']);
-
-function onInput(event) {
-  emit('update:modelValue', event.target.value);
-}
 </script>
 
 <template>
   <input
+    v-model="data"
     class="base-input"
     :type="type"
     :placeholder="placeholder"
-    :value="modelValue"
-    @input="onInput"
   />
 </template>
 
