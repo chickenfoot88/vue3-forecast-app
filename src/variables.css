@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #FFFFFF;
+  --color-background: #343D4B;
+  --color-primary-inverted: #000000;
+  --color-background-card: #272E37;
+  --color-background-main: #222831;
+  --color-text-placeholder: #3F4958;
+  --gradiend: linear-gradient(90deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.9) 100%);
+  --gradiend-inverted: linear-gradient(90deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.9) 92.2%);
+  --font: "Montserrat", sans-serif;
+}
